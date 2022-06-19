@@ -1,4 +1,35 @@
 .App {
   text-align: center;
+  justify-content: center;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts {
+  margin: 0 auto;
+  border: 1px solid white;
+  width: 600px;
+  border-radius: 20px;
+  background-color: #c8a077;
+}
+
+.photo {
+  width: 120px;
+  margin-top: 15px;
+  border: 2px solid whitesmoke;
+  border-radius: 50%;
+}
+
+.isi {
   display: flex;
+  flex-direction: row;
+  gap: 1;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #f00;
+  height: 1px;
+  width: 60%;
 }
